@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo da Memória PRO+</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🧠 Jogo da Memória</h1>
+
+  <div class="controls">
+    <select id="difficulty">
+      <option value="4">Fácil (4 pares)</option>
+      <option value="6">Médio (6 pares)</option>
+      <option value="8">Difícil (8 pares)</option>
+    </select>
+
+    <button id="restartBtn">🔄 Reiniciar</button>
+    <button id="showRanking">🏆 Ranking</button>
+  </div>
+
+  <div class="info">
+    <p>🎯 Jogadas: <span id="moves">0</span></p>
+    <p>⏱️ Tempo: <span id="timer">0</span>s</p>
+  </div>
+
+  <h2 id="winMessage"></h2>
+
+  <!-- BOTÃO INICIAR -->
+  <button id="startBtn" class="start-button">▶ Iniciar Jogo</button>
+
+  <!-- TABULEIRO -->
+  <div class="game-board" id="gameBoard"></div>
+
+  <!-- MODAL RANKING -->
+  <div class="ranking-modal" id="rankingModal">
+    <div class="ranking-content">
+      <h2>🏆 Ranking</h2>
+      <ul id="rankingList"></ul>
+      <button onclick="closeRanking()">Fechar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
