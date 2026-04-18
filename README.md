@@ -38,7 +38,8 @@ Este é um projeto prático realizado com o objetivo de Praticar lógica de prog
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](httpshttps://github.com/Chrystian-dev/Galeria-Web)[ PROJETO ](https://chrystian-dev.github.io/Jogo-da-Mem-ria/index.html). Não é necessário ter conta no [github.com](https://github.com/) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](httpshttps://github.com/Chrystian-dev/Galeria-Web)[ PROJETO ](https://chrystian-dev.github.io/Jogo-da-Mem-ria/index.html). veja como o projeto foi pensado no [figma.com](https://www.figma.com/design/oAIKTpeBMICELyfW3lyeIl/Projeto-pagina-dark-e-light--Copy-?node-id=10-620&p=f&t=imLQOzWSgWjp7DqA-0).
+
 
 ## :memo: Licença
 
